@@ -1,11 +1,11 @@
 package com.spring.helloworld.model;
-public class Phim {
+public class Film {
     
     private String title;
     private String director;
     private String description;
     private int year;
-    public Phim(String title, String director, String description, int year) {
+    public Film(String title, String director, String description, int year) {
         this.title = title;
         this.director = director;
         this.description = description;
