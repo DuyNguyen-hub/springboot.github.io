@@ -6,6 +6,32 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DemoPerson",
+            "request": "launch",
+            "mainClass": "DemoPerson"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise03Application",
+            "request": "launch",
+            "mainClass": "com.spring.exercise_03.Exercise03Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise03Application",
+            "request": "launch",
+            "mainClass": "spring_stream.exercise_03.Exercise03Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
