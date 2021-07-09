@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exercise04Application",
+            "request": "launch",
+            "mainClass": "stream.exercise04.Exercise04Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercise04Application",
+            "request": "launch",
+            "mainClass": "stream.exercise04.Exercise04Application",
+            "projectName": "exercise04"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch DemoPerson",
             "request": "launch",
             "mainClass": "DemoPerson"

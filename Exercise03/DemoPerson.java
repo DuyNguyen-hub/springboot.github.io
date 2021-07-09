@@ -70,7 +70,7 @@ public static  void averageAgeByNationality() {
     return (int) people.stream()
                       .filter(p -> p.getNationality().equals(nationality))
                       .count();
-}         
+}     
   
 
 }

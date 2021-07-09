@@ -11,7 +11,7 @@ public class Main {
         System.out.println("---------------------------------------------");
 
         //   Tuổi trung bình theo từng quốc tịch
-        System.out.println("Tuổi trung bình theo từng quốc tịch");
+        System.out.println("Tuổi trung bình theo từng nuoc:");
         DemoPerson.averageAgeByNationality();
     }
 }

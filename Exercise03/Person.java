@@ -9,7 +9,17 @@ public class Person {
     public Person(String name, String nationality, int age){
         this.name = name;
         this.nationality = nationality;
-        this.age = age;
+   
+
+    public Person(String name, String email, String job, String gender, String city, int salary, LocalDate birthdate) {
+        this.name = name;
+        this.email = email;
+        this.job = job;
+        this.gender = gender;
+        this.city = city;
+        this.salary = salary;
+        this.birthdate = birthdate;
+    }     this.age = age;
     }
 
     public String getName() {
