@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:fragment="main-fragment(content)">
+<head id="" th:fragment="header">
+  <meta charset="UTF-8">
+  <title>Title</title>
+<!--  <link rel="stylesheet" href="/css/index.css">-->
+</head>
+<body>
+<div id="wrapper">
+  <!--header-->
+  <div id="header">
+    <h3>Home-menu</h3>
+  </div>
+
+  <!--content-->
+  <div id="content" th:insert="${content} ?: ~{}">
+
+
+  </div>
+
+  <!--navbar-->
+  <div id="navbar">
+    <ul>
+      <li><a href="/show">Hiển thi danh sách người thành 1 cột</a></li>
+      <li><a href="/calculate/math">Cộng hai số</a></li>
+      <li><a href="/showBy2Colums"> Hiển thị thành 2 cột lớn</a></li>
+    </ul>
+  </div>
+
+
+</div>
+</body>
+</html>

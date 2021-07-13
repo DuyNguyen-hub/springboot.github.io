@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class ="wapper">
+        <div class="content" th:each="people, iter : ${peoples}">
+
+            <div id="post">image###</div>
+
+            <div id="sidebar">
+                <p th:text="${people.name}"></p>
+                <p th:text="${people.nationality}"></p>
+                <p th:text="${people.birthdate}"></p>
+                <p th:text="${people.gender}"></p>
+            </div>
+
+            <div id="footer" ></div>
+            <!-- <p th:if="${iter.index + 1}%2 == 0"><br></div ></p> -->
+    </div>
+
+</body>
+
+</html>
+
+

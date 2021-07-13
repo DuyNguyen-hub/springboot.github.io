@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" th:action="@{/calculate/math}" th:object="${calculate}" style="text-align:center;">
+    <div style="text-align: center" >
+        <h1>Tính tổng hai số bất kỳ.</h1>
+        <label>nhap mot so 'x' bat ky:</label><br><br>
+        <input type="text" name = "x" placeholder="nhap so 'x'" th:field="*{x}"><br><br>
+
+        <label>nhap mot so 'y' bat ky:</label><br><br>
+        <input type="text" name = "y" placeholder="nhap so 'y'" th:field="*{y}"><br><br>
+        <input type="submit" value="TINH">
+    </div>
+    <br>
+    <div>
+        Kết Quả : <td th:text="${response?.sums}"></td>
+
+    </div>
+ </form>
+
+</body>
+</html>

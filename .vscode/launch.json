@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ThymeleafEx5Application",
+            "request": "launch",
+            "mainClass": "vn.techmaster.basicthymeleaf.thymeleaf_ex5.ThymeleafEx5Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Exercise04Application",
             "request": "launch",
             "mainClass": "stream.exercise04.Exercise04Application",
