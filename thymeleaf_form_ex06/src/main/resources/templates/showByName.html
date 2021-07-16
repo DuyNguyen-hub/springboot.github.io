@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="allperson.html :: header('search')">
+</head>
+<body>
+<header th:insert="allperson.html :: topmenu"></header>
+
+<table class="table" th:object="${persons}">
+  <thead>
+  <tr>
+    <td scope="col">#</td>
+    <td scope="col">name</td>
+    <td scope="col">job</td>
+    <td scope="col">gender</td>
+    <td scope="col">birthday</td>
+    <td scope="col">Action</td>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr th:each="person, iter : ${persons}">
+    <td scope="row" th:text="${iter.index + 1}"></td>
+    <td th:text="${person.name}"></td>
+    <td th:text="${person.job}"></td>
+    <td>
+      <span th:if="${person.gender == 'female'}">🙎🏻‍♀️</span>
+      <span th:unless="${person.gender == 'female'}">🙎🏻‍♂️</span>
+    </td>
+    <td th:text="${person.birthday}"></td>
+    <td>
+      <a th:href="@{/edit/{id} (id =${person.id})}" type="submit">🛠</a>&nbsp&nbsp
+      <a th:href="@{/delete/{id} (id =${person.id})}" type="submit">⛔️</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
