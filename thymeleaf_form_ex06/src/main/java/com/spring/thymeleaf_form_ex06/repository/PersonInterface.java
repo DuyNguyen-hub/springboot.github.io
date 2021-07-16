@@ -9,7 +9,7 @@ import java.util.Optional;
 public interface PersonInterface {
     List<Person> collections = new ArrayList<>();
 
-    public List getAll();
+    public List<Person> getAll();
 
     public void add(Person person);
 

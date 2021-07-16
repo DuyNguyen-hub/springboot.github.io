@@ -26,7 +26,7 @@ public class PersonRepo implements PersonInterface {
     }
 
     @Override
-    public List getAll() {
+    public List<Person> getAll() {
         return collections;
     }
 
