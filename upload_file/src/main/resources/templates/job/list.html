@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{main-layout :: main-fragment(~{:: #content}) }">>
+<body >
+<div id ="content">
+
+    <form style="text-align: center; padding-top: 50px;">
+        <input type="text" name="job" placeholder="them job moi" >
+        <input type="submit" value="ADD">
+    </form><br>
+    <br>
+    <h1 style="text-align: center">LIST JOB</h1>
+    <br>
+    <table class="table" >
+        <thead>
+        <tr>
+            <td scope="col">#</td>
+            <td scope="col">name</td>
+            <td scope="col">descriptin</td>
+            <td scope="col">Action</td>
+        </tr>
+        </thead>
+
+    </table>
+</div>
+<form th:action="@{/add}" th:object="${person}" method="post" style="text-align: center; padding-top: 25px" >
+    <h2>CREATED NEW EMPLOYEE FORM</h2><br></br>
+    <label>Full Name: </label>
+    <input type="text" name="name" placeholder="input your name" th:field="*{name}"><br></br>
+
+    <label>Job: </label>
+    <select th:field="*{job}">
+        <option value="developer">Developer</option>
+        <option value="teacher">Teacher</option>
+        <option value="doctor">Doctor</option>
+        <option value="banker">Banker</option>
+    </select> <br></br>
+
+
+    <input type="radio" th:field="*{gender}" value="male">
+    <label>male</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="radio" th:field="*{gender}" value="female">
+    <label>female</label>
+    <br></br>
+
+    <label>Birthday: </label>
+    <input type="date" name="birthday" th:field="*{birthday}"> <br>
+
+
+
+    <input type="submit" value="Created">
+</form>
+</body>
+
+</html>

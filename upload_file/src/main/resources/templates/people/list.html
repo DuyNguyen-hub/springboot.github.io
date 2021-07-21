@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{main-layout :: main-fragment(~{:: #content}) }">>
+<body >
+<div id ="content">
+ <br>
+ <button class="btn btn-primary mt-3" style="margin-left: 50px;background-color: aliceblue">
+  <a style="text-decoration: none; color: blue; font-size: 20px;" href="/person/add">Thêm mới</a>
+ </button>
+ <br>
+
+ <br>
+ <h1 style="text-align: center">LIST EMPLOYEE</h1>
+ <br>
+  <div class="imge"  style="margin-left: 50px;" th:each="person, iter : ${persons}">
+   <div id="img">
+    <a th:href="@{/person/edit/{id} (id=${person.id})}">
+     <img th:src="@{'/photos/'+${person.linkimg}}">
+    </a>
+   </div>
+
+   <div id="noidung" >
+    <p th:text="${person.name}"></p>
+    <p th:text="${person.gender}"></p>
+    <p th:text="${person.birthday}"></p>
+    <p th:text="${person.job}"></p>
+   </div>
+
+   <div id="chan"></div>
+
+  </div>
+</div>
+</body>
+
+</html>

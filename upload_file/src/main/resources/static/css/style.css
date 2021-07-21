@@ -1,0 +1,41 @@
+.imge{
+    display: flex;
+    line-height: normal;
+    margin-left-left:300px;
+    width: 400px;
+    height: 200px;
+}
+
+/*==cột #post==*/
+#img {
+    width: 150px;
+    height: 150px;
+    background: #e8e8e8;
+    /*background-image: url("https://phunugioi.com/wp-content/uploads/2020/02/background-khinh-khi-cau-va-hoa-oai-huong.jpg");*/
+    float: left;
+}
+img{
+    display: block;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+/*==cột #sidebar==*/
+#noidung {
+    width: 250px;
+    height: 150px;
+    /*background: #b1b1b1;*/
+    margin-left: 120px;
+    float: left;
+}
+
+#chan p {
+
+    margin-left: 10px;
+}
+
+#chan{
+    height: 50px;
+
+}

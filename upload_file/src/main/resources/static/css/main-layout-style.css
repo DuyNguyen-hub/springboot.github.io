@@ -1,0 +1,28 @@
+#wrapper{
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    background-image: url("https://media.istockphoto.com/photos/white-wood-surface-natural-texture-background-picture-id1267047371?b=1&k=6&m=1267047371&s=170667a&w=0&h=nMaz2u73gDUPINcfimJcXs_nQAkbk0TbwdO_RfD8QHw=");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#header{
+    border: 1px solid red;
+    text-align: center;
+    height: 50px;
+    background-color: antiquewhite;
+}
+#content{
+    width: 100%;
+    height: 90%;
+
+
+}
+#header-menu{
+    display: inline-flex;
+}
+#header-li{
+    margin-left: 50px;
+    margin-top: 10px;
+}
