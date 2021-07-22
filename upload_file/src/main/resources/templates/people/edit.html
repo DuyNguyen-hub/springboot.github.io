@@ -38,18 +38,13 @@
                 </div>
 
                 <div class="form-group row mt-3">
-                    <label for="" class="col-sm-2 col-form-label">Job</label>
+                    <label for="job" class="col-sm-2 col-form-label">Job</label>
                     <div class="col-sm-4" style="font-size: 25px">
-                        <select th:field="*{job}">
-                            <option value="developer">Developer</option>
-                            <option value="teacher">Teacher</option>
-                            <option value="doctor">Doctor</option>
-                            <option value="banker">Banker</option>
+                        <select name="job" id="job" th:field="*{job}">
+                            <option th:each="jobname :${jobs}" th:value="${jobname.name}" th:text="${jobname.name}" ></option>
                         </select>
                     </div>
-                    <div class="text-danger" th:if="${#fields.hasErrors('job')}" th:errors="*{job}">job</div>
                 </div>
-
                 <div class="form-group row mt-3">
                     <label for="" class="col-sm-2 col-form-label">Select a photo</label>
                     <div class="col-sm-4">

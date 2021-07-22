@@ -4,52 +4,19 @@
 <body >
 <div id ="content">
 
-    <form style="text-align: center; padding-top: 50px;">
-        <input type="text" name="job" placeholder="them job moi" >
+    <form style="text-align: center; padding-top: 50px;" th:object="${job}" th:action="@{/job/add}" method="post">
+        <input type="text" placeholder="them job moi" name="name" th:filed="*{name}">
         <input type="submit" value="ADD">
     </form><br>
     <br>
     <h1 style="text-align: center">LIST JOB</h1>
     <br>
-    <table class="table" >
-        <thead>
-        <tr>
-            <td scope="col">#</td>
-            <td scope="col">name</td>
-            <td scope="col">descriptin</td>
-            <td scope="col">Action</td>
-        </tr>
-        </thead>
-
-    </table>
+    <ul th:each="job: ${jobs}" style="text-align: center; list-style: none;">
+        <li >
+            <a  style="font-size: 30px;color:blueviolet; text-decoration: none; " th:text="${job.name}" th:href="@{/job/edit/{id} (id=${job.id})}"></a>
+        </li>
+    </ul>
 </div>
-<form th:action="@{/add}" th:object="${person}" method="post" style="text-align: center; padding-top: 25px" >
-    <h2>CREATED NEW EMPLOYEE FORM</h2><br></br>
-    <label>Full Name: </label>
-    <input type="text" name="name" placeholder="input your name" th:field="*{name}"><br></br>
-
-    <label>Job: </label>
-    <select th:field="*{job}">
-        <option value="developer">Developer</option>
-        <option value="teacher">Teacher</option>
-        <option value="doctor">Doctor</option>
-        <option value="banker">Banker</option>
-    </select> <br></br>
-
-
-    <input type="radio" th:field="*{gender}" value="male">
-    <label>male</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="radio" th:field="*{gender}" value="female">
-    <label>female</label>
-    <br></br>
-
-    <label>Birthday: </label>
-    <input type="date" name="birthday" th:field="*{birthday}"> <br>
-
-
-
-    <input type="submit" value="Created">
-</form>
 </body>
 
 </html>

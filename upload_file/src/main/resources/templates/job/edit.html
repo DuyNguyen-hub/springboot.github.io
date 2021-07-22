@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{main-layout :: main-fragment(~{:: #content}) }">
+<body>
+<div id="content" style="margin-left: 50px;">
+  <div class="row">
+    <div class="col-lg-8 mt-5">
+      <h2>EDIT NAME JOB</h2>
+      <form action="#" th:action="@{/job/edit}" method="post" name="job" enctype="multipart/form-data"
+            th:object="${job}">
+        <div class="form-group row">
+          <div class="col-sm-4">
+            <input type="text" class="form-control" name="name" th:field="*{name}" autocomplete="off" />
+          </div>
+          <input type="hidden" th:field="*{id}">
+        </div>
+
+
+        <button class="btn btn-primary mt-3" type="submit" name="update">UPDATE</button>
+        <a th:href="@{/job/delete/{id} (id=${jobId})}" class="btn btn-primary mt-3" >
+          DELETE
+        </a>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>

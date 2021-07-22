@@ -2,6 +2,7 @@ package com.spring.upload_file.controller;
 
 import com.spring.upload_file.exception.StorageException;
 import com.spring.upload_file.model.Person;
+import com.spring.upload_file.repository.JobInterface;
 import com.spring.upload_file.repository.PersonInterface;
 import com.spring.upload_file.service.StorageService;
 import lombok.extern.slf4j.Slf4j;
@@ -20,6 +21,8 @@ import java.util.Optional;
 @RequestMapping("person")
 @Slf4j
 public class PersonController {
+    @Autowired
+    private JobInterface jobInterface;
 
     @Autowired
     private PersonInterface personInterface;
@@ -31,6 +34,7 @@ public class PersonController {
         List<Person> list = personInterface.getAll();
 
         model.addAttribute("persons", list);
+
         return "people/list";
     }
 
@@ -38,6 +42,7 @@ public class PersonController {
     @GetMapping("add")
     public String add(Model model) {
         model.addAttribute("person", new Person());
+        model.addAttribute("jobs", jobInterface.getAll());
         return "people/add";
     }
 
@@ -51,7 +56,7 @@ public class PersonController {
         } else if (person.getGender().isEmpty()) {
             result.addError(new FieldError("person", "gender", "please choose gender"));
         } else if (person.getBirthday().isEmpty()) {
-            result.addError(new FieldError("person", "birthday", "please choose bỉthday"));
+            result.addError(new FieldError("person", "birthday", "please choose birthday"));
         }
         if (result.hasErrors()) {
             return "people/add";
@@ -72,6 +77,7 @@ public class PersonController {
         Optional<Person> personCreated = personInterface.showById(id);
         model.addAttribute("person", personCreated);
         model.addAttribute("idPerson", id);
+        model.addAttribute("jobs", jobInterface.getAll());
         return "people/edit";
 
     }
