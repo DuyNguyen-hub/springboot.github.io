@@ -20,9 +20,11 @@
 <img width="1066" alt="list_job" src="https://user-images.githubusercontent.com/80323466/126612457-757efa29-335f-4780-9e34-7bd133ba77fc.png">
 
 -ADD NEW JOB
+
 <img width="743" alt="add_job" src="https://user-images.githubusercontent.com/80323466/126612477-d07390ff-8a69-472b-be63-3cb77813c7df.png">
 
 -ADD SUCCESS
+
 <img width="664" alt="add_sucess_job" src="https://user-images.githubusercontent.com/80323466/126612502-d97af906-5c6d-44d1-91f0-c8abea2b2c8c.png">
 
 -FORM EDIT OR DELETE A JOB
