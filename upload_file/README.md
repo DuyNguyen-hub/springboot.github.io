@@ -28,6 +28,7 @@
 <img width="664" alt="add_sucess_job" src="https://user-images.githubusercontent.com/80323466/126612502-d97af906-5c6d-44d1-91f0-c8abea2b2c8c.png">
 
 -FORM EDIT OR DELETE A JOB
+
 <img width="567" alt="edit_or_delete_job" src="https://user-images.githubusercontent.com/80323466/126612571-29c77604-d3b2-49b4-9d84-771c37d5faf8.png">
 
 
