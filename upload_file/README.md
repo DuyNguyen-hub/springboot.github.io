@@ -2,12 +2,17 @@
 <img width="1789" alt="person-main" src="https://user-images.githubusercontent.com/80323466/126612344-2df7957f-6430-4b1b-bd45-7de0a596639f.png">
 
 -FORM THÊM MỚI EMPLOYEE
+-> ta truyền vào thêm list job động tuỳ thuộc vào action job!
+
 <img width="1494" alt="add_new_emplyee" src="https://user-images.githubusercontent.com/80323466/126612380-430cfdb9-0ec7-4deb-a6eb-d49df087c2b7.png">
 
 -THÊM MỚI THÀNH CÔNG
 <img width="1738" alt="add_sucess" src="https://user-images.githubusercontent.com/80323466/126612941-ce066bf2-8006-4a9e-aed4-c963dd3209d5.png">
 
 - FROM EDIT OR DELETE A PERSON
+ -> Tuỳ vào ng dùng chọn edit or delete nhưng ta sẽ xử lí ảnh nếu ảnh update có name khác image created thì ta sẽ xoá ảnh cũ đi oy mới update ảnh mới
+  tương tự delete ta xoá luôn ảnh trong fodel photos để tránh gây tốn tài nguyên!
+  
 <img width="1668" alt="form_edit_delete" src="https://user-images.githubusercontent.com/80323466/126612436-492cef85-bea7-4bf0-b513-35a14af9e131.png">
 
 -DELETE SUCCESS A EMPLOYEE BY NAME JONH
