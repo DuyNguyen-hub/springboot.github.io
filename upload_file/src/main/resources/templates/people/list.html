@@ -5,12 +5,12 @@
 <div id ="content">
  <br>
  <button class="btn btn-primary mt-3" style="margin-left: 50px;background-color: aliceblue">
-  <a style="text-decoration: none; color: blue; font-size: 20px;" href="/person/add">ADD NEW</a>
+  <a style="text-decoration: none; color: blue; font-size: 20px;" href="/person/add"  th:text="#{addnew}">ADD NEW</a>
  </button>
  <br>
 
  <br>
- <h1 style="text-align: center">LIST EMPLOYEE</h1>
+ <h1 style="text-align: center"  th:text="#{listemployee}">LIST EMPLOYEE</h1>
  <br>
   <div class="imge"  style="margin-left: 50px;" th:each="person, iter : ${persons}">
    <div id="img">

@@ -15,10 +15,11 @@
     <!--header-->
     <div id="header">
         <ul id="header-menu" style=" list-style: none; text-decoration: none;">
-            <li  id="header-li"><a style="text-decoration: none" href="/">Home</a></li>
-            <li  id="header-li"><a style="text-decoration: none" href="/person/main">List Person</a></li>
-            <li  id="header-li"><a style="text-decoration: none" href="/job">List Job</a></li>
-            <li  id="header-li"><a style="text-decoration: none" th:href="@{/?lang=en}">English</a>
+            <li  id="header-li"><a style="text-decoration: none" href="/" th:text="#{lable.home}">Home</a></li>
+            <li  id="header-li"><a style="text-decoration: none" href="/person/main" th:text="#{listperson}">List Person</a></li>
+            <li  id="header-li"><a style="text-decoration: none" href="/job" th:text="#{listjob}"> List Job</a></li>
+
+             <li  id="header-li"><a style="text-decoration: none" th:href="@{/?lang=en}">English</a>
             <li  id="header-li"><a style="text-decoration: none" th:href="@{/?lang=vn}">Vietnamese</a>
         </ul>
     </div>

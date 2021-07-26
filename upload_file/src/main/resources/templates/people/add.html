@@ -5,12 +5,12 @@
 <div id ="content" style="margin-left: 50px;">
   <div class="row" >
     <div class="col-lg-8 mt-5">
-      <h2>CREATED NEW EMPLOYEE</h2>
+      <h2 th:text="#{createdemployee}">CREATED NEW EMPLOYEE</h2>
       <form action="#" th:action="@{/person/add}" method="post" name="person" enctype="multipart/form-data"
             th:object="${person}">
 
         <div class="form-group row">
-          <label for="name" class="col-sm-2 col-form-label">Name</label>
+          <label for="name" class="col-sm-2 col-form-label" th:text="#{name}">Name</label>
           <div class="col-sm-4">
             <input type="text" class="form-control" name="name" th:field="*{name}" autocomplete="off" />
           </div>
@@ -18,7 +18,7 @@
         </div>
 
         <div class="form-group row mt-3">
-          <label for="birthday" class="col-sm-2 col-form-label">Birthday</label>
+          <label for="birthday" class="col-sm-2 col-form-label" th:text="#{birthday}">Birthday</label>
           <div class="col-sm-4" style="font-size: 25px">
             <input type="date" name="birthday" th:field="*{birthday}">
           </div>
@@ -26,18 +26,18 @@
         </div>
 
         <div class="form-group row mt-3">
-          <label for="gender" class="col-sm-2 col-form-label">Gender</label>
+          <label for="gender" class="col-sm-2 col-form-label" th:text="#{gender}"}>Gender</label>
           <div class="col-sm-4" style="font-size: 25px" name="gender">
             <input type="radio" th:field="*{gender}" value="male">
-            <label>male</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <label th:text="#{male}">male</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             <input type="radio" th:field="*{gender}" value="female">
-            <label>female</label>
+            <label th:text="#{female}">female</label>
           </div>
           <div class="text-danger"  th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}">gender</div>
         </div>
 
         <div class="form-group row mt-3">
-          <label for="job" class="col-sm-2 col-form-label">Job</label>
+          <label for="job" class="col-sm-2 col-form-label" th:text="#{job}">Job</label>
           <div class="col-sm-4" style="font-size: 25px">
             <select name="job" id="job" th:field="*{job}">
               <option th:each="jobname :${jobs}" th:value="${jobname.name}" th:text="${jobname.name}" ></option>
@@ -46,14 +46,14 @@
         </div>
 
         <div class="form-group row mt-3">
-          <label for="photo" class="col-sm-2 col-form-label">Select a photo</label>
+          <label for="photo" class="col-sm-2 col-form-label" th:text="#{selectphotos}">Select a photo</label>
           <div class="col-sm-4">
-            <input type="file" name="photo" class="form-control"th:field="*{photo}" />
+            <input type="file" name="photo" class="form-control" th:field="*{photo}" />
           </div>
           <div class="text-danger"  th:if="${#fields.hasErrors('photo')}" th:errors="*{photo}">Upload Error</div>
         </div>
 
-        <button class="btn btn-primary mt-3" type="submit">Submit form</button>
+        <button class="btn btn-primary mt-3" type="submit" th:text="#{submit}"}>Submit form</button>
       </form>
     </div>
 </div>
