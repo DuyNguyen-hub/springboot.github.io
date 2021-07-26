@@ -55,6 +55,9 @@ public class PersonRepo implements PersonInterface {
                 .filter(p->p.getId() == id).findFirst();
     }
 
+    //hienthi theo ten
+
+
     //update
     @Override
     public void update(Person person) {

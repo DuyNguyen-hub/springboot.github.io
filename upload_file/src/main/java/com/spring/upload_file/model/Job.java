@@ -1,7 +1,12 @@
 package com.spring.upload_file.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import javax.validation.constraints.NotBlank;
+
 public class Job {
     private int id;
+    @NotBlank(message = "job cannot null")
     private String name;
 
     public Job(){}

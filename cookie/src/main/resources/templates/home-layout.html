@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header(title)">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <title th:text="${title}"></title>
+</head>
+<body>
+    <div th:fragment="topmenu">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/setting">Setting</a>
+          </li>
+        </ul>
+        <script th:replace="template :: changeColor">
+        </script>
+      </div>
+        
+        
+        <div id="content" th:fragment="content">
+            <h2> Phó thủ tướng: Giãn cách nhưng nhiều người dân TP HCM còn ra đường</h2>
+           
+            <p>Phó thủ tướng Vũ Đức Đam bày tỏ lo ngại khi thấy nhiều người đi trên đường dù TP HCM đang giãn cách xã hội theo Chỉ thị 16.</p><br>
+            
+            <p>Thông tin được Phó thủ tướng Vũ Đức Đam, Trưởng ban chỉ đạo phòng chống Covid-19 quốc gia nói khi đi thị sát khu phong tỏa ở quận 8, chiều 24/7.</p><br>
+            
+            Phó thủ tướng cho biết, trưa nay ông đã tới Sở Giao thông Vận tải TP HCM để hỏi về lưu lượng xe và được biết vài hôm đầu thực hiện Chỉ thị 16 lưu lượng xe 
+        </div>
+        
+    </div>
+</body>
+</html>

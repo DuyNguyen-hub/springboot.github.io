@@ -42,6 +42,12 @@ public class JobRepo implements JobInterface{
                 .filter(p->p.getId() == id).findFirst();
     }
 
+    @Override
+    public Optional<Job> showByName(String name) {
+        return collections.stream()
+                .filter(p->p.getName() == name).findFirst();
+    }
+
     //update
     @Override
     public void update(Job job) {

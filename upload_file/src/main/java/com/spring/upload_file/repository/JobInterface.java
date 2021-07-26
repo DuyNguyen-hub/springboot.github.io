@@ -17,6 +17,8 @@ public interface JobInterface {
 
     public Optional<Job> showById(int id);
 
+    public Optional<Job> showByName(String name);
+
     public void update(Job job);
 
     public void deleteByID(int id);

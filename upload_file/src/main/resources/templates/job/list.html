@@ -6,6 +6,7 @@
 
     <form style="text-align: center; padding-top: 50px;" th:object="${job}" th:action="@{/job/add}" method="post">
         <input type="text" placeholder="them job moi" name="name" th:filed="*{name}">
+        <div class="text-danger" th:if="${error}" th:text="${error}"></div>
         <input type="submit" value="ADD">
     </form><br>
     <br>

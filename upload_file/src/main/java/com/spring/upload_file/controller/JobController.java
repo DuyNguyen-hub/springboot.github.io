@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
+import java.util.Optional;
 
 @Controller
 @RequestMapping("job")
@@ -28,9 +29,9 @@ public class JobController {
     }
 
     @PostMapping("add")
-    public String add(@ModelAttribute Job job){
-        jobInterface.add(job);
-        return "redirect:/job";
+    public String add(@Valid @ModelAttribute Job job, BindingResult result, Model model){
+            jobInterface.add(job);
+            return "redirect:/job";
     }
 
     @GetMapping("edit/{id}")

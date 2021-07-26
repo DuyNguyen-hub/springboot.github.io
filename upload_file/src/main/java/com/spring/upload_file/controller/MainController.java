@@ -11,4 +11,9 @@ public class MainController {
     public String main(){
         return "main-layout";
     }
+
+    @GetMapping("main")
+    public String show(){
+        return "demo";
+    }
 }

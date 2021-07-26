@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head th:replace="home-layout.html :: header('setting')"> </head>
+
+<body>
+    <header th:insert="home-layout.html :: topmenu"></header>
+    <form th:action="@{/setting}" method="post" th:object="${color}" style="margin-left: 40px; margin-top: 30px;">
+           
+                <label>Background Color</label>
+                <select name="bgColor" th:field="*{bgColor}" style="font-size: 20px;">
+                    <option value="yellow">Yellow</option>
+                    <option value="black">Black</option>
+                    <option value="pink">Pink</option>
+                    <option value="orange">Orange</option>
+                    <option value="brown">Brown</option>
+                </select>
+            <br><br>
+
+           
+                <label>Font Color</label >
+                <select name="ftColor" th:field="*{ftColor}" style="font-size: 20px;">
+                    <option value="white">White</option>
+                    <option value="black">Black</option>
+                    <option value="blue">Blue</option>
+                    <option value="orange">Orange</option>
+                    <option value="red">Red</option>
+                </select>
+            <br><br>
+
+            
+                <label>Font Size</label >
+                <input type="text" placeholder="Font Size" name="ftSize" th:field="*{ftSize}" style="font-size: 20px;"/>
+            <br><br>
+
+        <input type="submit" value="SAVE SETTING" style="background-color: aqua;border-radius: 6px;">
+    </form>
+</body>
+
+</html>
