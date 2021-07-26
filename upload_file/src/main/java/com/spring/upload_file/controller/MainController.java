@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
     @GetMapping("")
     public String main(){
+        
         return "main-layout";
     }
 
@@ -16,4 +17,5 @@ public class MainController {
     public String show(){
         return "demo";
     }
+
 }
