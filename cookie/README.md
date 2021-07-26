@@ -1,8 +1,13 @@
 1-Mục đích của cookie là gì?
+
 2-Cookie là công nghệ chỉ có trong Spring Boot. Đúng hay Sai?
+
 3-Thuộc tính Expires/Max-Age tính bằng đơn vị gì? Ý nghĩa của nó là gì?
+
 4-Thuộc tính Domain của Cookie có ý nghĩa gì?
+
 5-Thuộc tính nào cho phép mã JavaScript ở client có thể đọc được giá trị của Cookie?
+
 6-Thuộc tính Path có tác dụng như thế nào?
 
 
