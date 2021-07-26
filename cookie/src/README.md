@@ -18,3 +18,13 @@
 5- thuộc tính HttpOnly là false!
 
 6-
+
+
+<img width="1430" alt="Screen Shot 2021-07-26 at 13 49 02" src="https://user-images.githubusercontent.com/80323466/126945086-8bb556e4-1d7e-47cf-a694-4f26a18886d0.png">
+//
+<img width="641" alt="Screen Shot 2021-07-26 at 13 49 43" src="https://user-images.githubusercontent.com/80323466/126945154-45c55554-a187-42e8-bc06-a6cabef0983e.png">
+//
+<img width="716" alt="Screen Shot 2021-07-26 at 13 50 27" src="https://user-images.githubusercontent.com/80323466/126945219-2b442fd4-9ce7-4369-8bb6-9e76e30358a0.png">
+//
+<img width="1466" alt="Screen Shot 2021-07-26 at 13 51 40" src="https://user-images.githubusercontent.com/80323466/126945354-4a3af547-2da7-4c41-9983-0e477d55110f.png">
+
