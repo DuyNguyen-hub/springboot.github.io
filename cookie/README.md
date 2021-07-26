@@ -11,7 +11,8 @@
 6-Thuộc tính Path có tác dụng như thế nào?
 
 
-// Trả lời
+// Trả lời:
+
 1- tạo ra và lưu 1 file chứa các thông tin đăng nhập và hành vi của người dùng trên thiết bị của người dùng (máy tính, smartphone,..), và các lần truy cập kế tiếp sẽ ko cần xác minh lại nếu thời gian cookei chưa hết!
 
 2- Sai.
