@@ -37,4 +37,11 @@
 <img width="567" alt="edit_or_delete_job" src="https://user-images.githubusercontent.com/80323466/126612571-29c77604-d3b2-49b4-9d84-771c37d5faf8.png">
 
 
+//language
+<img width="1791" alt="Screen Shot 2021-07-26 at 15 14 50" src="https://user-images.githubusercontent.com/80323466/126956216-c7446485-0c52-4033-a351-f99aa203a605.png">
+
+<img width="1719" alt="Screen Shot 2021-07-26 at 15 15 37" src="https://user-images.githubusercontent.com/80323466/126956328-4d5cc5ec-7cc5-41ca-87dc-3473cbe592be.png">
+
+<img width="1786" alt="Screen Shot 2021-07-26 at 15 16 07" src="https://user-images.githubusercontent.com/80323466/126956416-eb93ad2e-687f-4e05-97dc-8e6b256d2cfe.png">
+
 
