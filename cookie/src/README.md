@@ -28,7 +28,7 @@
 <img width="641" alt="Screen Shot 2021-07-26 at 13 49 43" src="https://user-images.githubusercontent.com/80323466/126945154-45c55554-a187-42e8-bc06-a6cabef0983e.png">
 
 
-//Setting form after
+//Save Setting after
 
 
 <img width="716" alt="Screen Shot 2021-07-26 at 13 50 27" src="https://user-images.githubusercontent.com/80323466/126945219-2b442fd4-9ce7-4369-8bb6-9e76e30358a0.png">
