@@ -4,7 +4,8 @@
 
 2 - Add 3 product to cart!
 
-[Uploading Screen Shot 2021-07-31 at 22.20.11.png…]()
+<img width="1769" alt="Screen Shot 2021-07-31 at 22 37 21" src="https://user-images.githubusercontent.com/80323466/127745008-c824ffff-5722-4f5f-9fc2-b9ff86bfdbfd.png">
+
 
 
 3- Cart 
