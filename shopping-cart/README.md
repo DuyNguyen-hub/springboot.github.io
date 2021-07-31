@@ -27,7 +27,7 @@
 <img width="1218" alt="Screen Shot 2021-07-31 at 22 34 42" src="https://user-images.githubusercontent.com/80323466/127744949-668d9635-b4f6-44d6-b6eb-931d0d17d8bf.png">
 
 
-6- hiện trang báo đặt hàng thành công.
+6- hiện trang báo đặt hàng thành công
 
 <img width="1508" alt="Screen Shot 2021-07-31 at 22 28 02" src="https://user-images.githubusercontent.com/80323466/127744710-32a5ae23-b924-44d7-b966-848ae4041051.png">
 
