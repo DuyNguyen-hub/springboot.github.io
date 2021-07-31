@@ -18,12 +18,14 @@
 
 5 - Form đặt hàng và gửi email tới địa chỉ mail đã cung cấp!
 
-[Uploading Screen Shot 2021-07-31 at 22.25.44.png…]()
+<img width="1175" alt="Screen Shot 2021-07-31 at 22 33 51" src="https://user-images.githubusercontent.com/80323466/127744938-2ad72944-26ec-4397-8adb-e8f22ca7ede3.png">
+
 
 
 5.1 - email nhận đc!
 
-[Uploading Screen Shot 2021-07-31 at 22.27.27.png…]()
+<img width="1218" alt="Screen Shot 2021-07-31 at 22 34 42" src="https://user-images.githubusercontent.com/80323466/127744949-668d9635-b4f6-44d6-b6eb-931d0d17d8bf.png">
+
 
 6- hiện trang báo đặt hàng thành công.
 
