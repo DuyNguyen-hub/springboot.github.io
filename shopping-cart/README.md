@@ -25,7 +25,7 @@
 
 [Uploading Screen Shot 2021-07-31 at 22.27.27.png…]()
 
-6- hiện trang báo đặt hàng thành công
+6- hiện trang báo đặt hàng thành công.
 
 <img width="1508" alt="Screen Shot 2021-07-31 at 22 28 02" src="https://user-images.githubusercontent.com/80323466/127744710-32a5ae23-b924-44d7-b966-848ae4041051.png">
 
