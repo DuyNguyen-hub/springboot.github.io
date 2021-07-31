@@ -12,7 +12,7 @@
 
 <img width="1761" alt="Screen Shot 2021-07-31 at 22 21 54" src="https://user-images.githubusercontent.com/80323466/127744548-7bcc548b-840c-4b59-ae07-0ab1090bc561.png">
 
-4-- Add amount product
+4-- Add amount product and remove product BÀN PHÍM CƠ
 
 <img width="1746" alt="Screen Shot 2021-07-31 at 22 24 03" src="https://user-images.githubusercontent.com/80323466/127744586-d2945b98-7261-4683-b7e5-4dbb482e6f10.png">
 
