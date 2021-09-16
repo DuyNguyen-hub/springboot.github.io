@@ -15,3 +15,6 @@
 
 <img width="1545" alt="Screen Shot 2021-09-16 at 09 55 38" src="https://user-images.githubusercontent.com/80323466/133541949-7749fe54-909f-4c70-8259-fd43661c6266.png">
 
+- delete product in page=3
+
+ <img width="1516" alt="Screen Shot 2021-09-16 at 10 07 11" src="https://user-images.githubusercontent.com/80323466/133542947-7e83a5e1-7e76-4ffc-919f-6784401cf543.png">
