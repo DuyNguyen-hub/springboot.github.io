@@ -8,7 +8,9 @@ import lombok.Data;
 @Data
 public class Cart {
     private List<OrderLine> orderLines;
+    // tong tien sp
     private long rawTotal;
+    //chiet khau
     private long discount;
     private long vatTax;
     private long total;

@@ -65,11 +65,11 @@ public class PersonController {
         return "redirect:/person/main";
     }
 
-    @ExceptionHandler(StorageException.class)
-    public String handleStorageFileNotFound(StorageException e, Model model) {
-        model.addAttribute("errorMessage", e.getMessage());
-        return "failure";
-    }
+    // @ExceptionHandler(StorageException.class)
+    // public String handleStorageFileNotFound(StorageException e, Model model) {
+    //     model.addAttribute("errorMessage", e.getMessage());
+    //     return "failure";
+    // }
 
     //edit
     @GetMapping("edit/{id}")

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f79ae3c-2d2b-4606-8e80-a4cadc85dbf2" name="Default Changelist" comment="" />
+    <list default="true" id="2f79ae3c-2d2b-4606-8e80-a4cadc85dbf2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/config/SessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/config/SessionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart/src/main/java/com/spring/shoppingcart/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_file/src/main/java/com/spring/upload_file/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/upload_file/src/main/java/com/spring/upload_file/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_file/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/upload_file/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626961231377</updated>
       <workItem from="1626961233263" duration="21000" />
+      <workItem from="1629452418499" duration="8000" />
     </task>
     <servers />
   </component>

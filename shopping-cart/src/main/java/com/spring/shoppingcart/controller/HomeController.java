@@ -57,6 +57,7 @@ public class HomeController {
         cart.update(product.get());
         cartService.addToCart(id, session);
         return "redirect:/checkout";
+        
     }
 
     //removecount

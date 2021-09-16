@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ShoppingCartApplication",
+            "request": "launch",
+            "mainClass": "com.spring.shoppingcart.ShoppingCartApplication",
+            "projectName": "shopping-cart"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoAdmLteApplication",
+            "request": "launch",
+            "mainClass": "com.spring.demo_adm_lte.DemoAdmLteApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch UploadFileApplication",
+            "request": "launch",
+            "mainClass": "com.spring.upload_file.UploadFileApplication",
+            "projectName": "upload_file"
+        },
+        {
+            "type": "java",
             "name": "Launch ThymeleafFormApplication",
             "request": "launch",
             "mainClass": "thymeleaf.thymeleaf_form.ThymeleafFormApplication",
